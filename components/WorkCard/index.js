@@ -9,7 +9,7 @@ const WorkCard = ({ img, name, description, site_url, github_url, onClick }) => 
     >
       <div
         className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto"
-        style={{ height: "300px" }}
+        style={{ height: "200px" }}
       >
         <iframe
           alt={name}
