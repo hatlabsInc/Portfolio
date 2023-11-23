@@ -31,7 +31,7 @@
       "id": "1",
       "title": "ThreeAres - (Work in Progress)",
       "description": "ThreeAre's is an e-commerce storefront where every product sold - paperbacks, home appliances, attires, accessories, etc., is manufactured from recycled substances.",
-      "imageSrc": "https://www.youtube.com/embed/FPPP0HhE8bE?mute=0",
+      "imageSrc": "https://github.com/ErzaTitania-2001/ThreeAres-main/blob/master/sih_threeares-main/images/Screenshot%202023-11-23%20233504.png?raw=true",
       "url": "https://threeares.netlify.app/",
       "site_url" :"https://threeares.netlify.app/",
       "github_url":""
@@ -39,9 +39,10 @@
     {
       "id": "2",
       "title": "Recipe-Hut",
-      "description": "Web Development",
-      "imageSrc": "https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=1408&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "url": "http://chetanverma.com/"
+      "description": "Recipe-Hut is your one stop destination for A Multi-cuisine Restaurant With Scenic Euphoria.",
+      "imageSrc": "https://github.com/ErzaTitania-2001/recipe-hut/blob/main/readme-images/Screenshot%202023-11-23%20222343.png?raw=true",
+      "url": "https://recipe-hut-manali.netlify.app/",
+      "github_url":"https://github.com/ErzaTitania-2001/recipe-hut/tree/main"
     },
     {
       "id": "3",
