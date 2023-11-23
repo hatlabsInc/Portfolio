@@ -13,8 +13,12 @@ import Cursor from "../components/Cursor";
 
 // Local Data
 import data from "../data/portfolio.json";
+import { useTheme } from "next-themes";
 
 export default function Home() {
+
+  const { theme } = useTheme()
+
   // Ref
   const workRef = useRef();
   const aboutRef = useRef();
@@ -63,13 +67,13 @@ export default function Home() {
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
         />
-        <div className="laptop:mt-20 mt-10 w-full flex flex-col items-center justify-center text-center text-gray-400">
+        <div className={`laptop:mt-20 mt-10 w-full flex flex-col items-center justify-center text-center ${theme === "dark" ? "text-gray-400": "text-gray-500"}`}>
           <div className="mt-5 ">
             <h1
               ref={textOne}
               className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-full"
             >
-              {data.headerTaglineOne}&nbsp;<span className="text-white">{data.headerTaglineTwo}.</span>
+              {data.headerTaglineOne}&nbsp;<span className={theme === "dark" ? "text-white": "text-black"}>{data.headerTaglineTwo}.</span>
             </h1>
             {/* <h1
               ref={textTwo}
