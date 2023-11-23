@@ -1,9 +1,10 @@
 {
-  "name": "hatlabs",
-  "headerTaglineOne": "Hello 👋",
-  "headerTaglineTwo": "hatlabs",
-  "headerTaglineThree": "designer and devloper",
-  "headerTaglineFour": " based in Calcutta, India.",
+  "name": "Hatlabs",
+  "headerTaglineOne": "Welcome ",
+  "headerTaglineTwo": "To Hatlabs.",
+  "headerTaglineThree": "Morph Your Dreams To Reality With Us.",
+  "headerTaglineFour": "Based in Calcutta, India.",
+  "showCursor": true,
   "showBlog": true,
   "darkMode": true,
   "socials": [
