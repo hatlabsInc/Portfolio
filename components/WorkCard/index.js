@@ -24,8 +24,11 @@ const WorkCard = ({ img, name, description, site_url, github_url, onClick }) => 
       <h2 className="text-xl opacity-50">
         {description ? description : "Description"}
       </h2>
+      <div className="flex ">
       <Button href={site_url}>Visit Site</Button>
       <Button href={github_url}>Codebase</Button>
+      </div>
+      
 
     </div>
   );
