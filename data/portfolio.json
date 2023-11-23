@@ -7,7 +7,6 @@
   "showCursor": true,
   "showBlog": true,
   "darkMode": true,
-  "showResume": true,
   "socials": [
     {
       "id": "1",
@@ -17,9 +16,15 @@
     {
       "id": "2",
       "title": "LinkedIn",
-      "link": "https://www.linkedin.com/in/chetanverma7/"
+      "link": "https://www.linkedin.com/company/hatlabsinc"
     },
-    { "id": "3", "title": "Email", "link": "mailto:hatlabs.india@gmail.com" }
+    {
+      "id": "3",
+      "title": "Twitter",
+      "link": "https://twitter.com/realchetanverma"
+    },
+    { "id": "4", "title": "Blog", "link": "https://blog.chetanverma.com/" },
+    { "id": "5", "title": "Email", "link": "mailto:hello@chetanverma.com" }
   ],
   "projects": [
     {
@@ -67,29 +72,29 @@
   ],
   "services": [
     {
+      "id": "4",
+      "title": "Web Development",
+      "description": "We specialize in meeting your end-to-end Web, Cloud, Mobile development needs. We deliver secure and scalable solutions to drive your business forward."},
+    {
       "id": "1",
-      "title": "Art Direction",
-      "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+      "title": "Software Consulting",
+      "description": "Our team of experienced consultants offers software strategy consulting services to help clients bring their ideas to life. From market analysis to risk assessment and monetization strategies, we provide a comprehensive roadmap to ensure project success."
     },
     {
       "id": "2",
-      "title": "Branding",
-      "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+      "title": "Exclusive AI Development",
+      "description": "Our AI Development Services are designed to provide innovative solutions to businesses and help them stay ahead of the competition. We use a hybrid intelligence methodology that combines the power of technology with human insight to transform your business and ensure sustainable growth."
     },
     {
       "id": "3",
-      "title": "Web Design",
-      "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
-    },
-    {
-      "id": "4",
-      "title": "3D Design",
-      "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+      "title": "Product Engineering",
+      "description": "Our custom product & software solutions are designed to improve your business outcomes. We work with you to understand your unique needs and create a solution that optimizes your processes, improves decision-making, and unlocks new opportunities for growth."
     }
+    
   ],
   "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   "resume": {
-    "tagline": "👋  I'm a software engineer, product designer.",
+    "tagline": "👋  I'm a software engineer, product designer, and maker.",
     "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
     "experiences": [
       {
@@ -97,14 +102,17 @@
         "dates": "March 2022 - Present",
         "type": "Full Time",
         "position": "Frontend Engineer at X",
-        "bullets": "Bullet One, Bullet Two"
+        "bullets": [
+          "Worked on the frontend of a React application",
+          "Worked on the frontend of a React application"
+        ]
       },
       {
-        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
-        "dates": "July 2020 - March 2022",
+        "id": "2",
+        "dates": "March 2020 - March 2022",
         "type": "Full Time",
         "position": "Frontend Engineer at X",
-        "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+        "bullets": ["Worked on the frontend of a React application"]
       }
     ],
     "education": {
@@ -112,7 +120,7 @@
       "universityDate": "2016-2020",
       "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
-    "languages": ["Javascript", "HTML5", "CSS", "Python", "Go"],
+    "languages": ["Javascript", "HTML5", "CSS", "Python"],
     "frameworks": ["React", "Typescript", "NodeJs"],
     "others": ["Figma", "AdobeXD", "AWS"]
   }
