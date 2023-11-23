@@ -11,11 +11,11 @@ const WorkCard = ({ img, name, description, site_url, github_url, onClick }) => 
         className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto"
         style={{ height: "200px" }}
       >
-        <iframe
+        <img
           alt={name}
           className="h-full w-full object-cover hover:scale-110 transition-all ease-out duration-300"
           src={img}
-        ></iframe>
+        ></img>
       </div>
       <h1 className="mt-5 text-3xl font-medium">
         {name ? name : "Project Name"}
