@@ -49,7 +49,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className={`relative ${data.showCursor && "cursor-none"} overflow-hidden`}>
+    <div className={`relative ${data.showCursor && "cursor-none"} overflow-hidden text-center`}>
       {data.showCursor && <Cursor />}
       <Head>
         <title>{data.name}</title>
@@ -63,20 +63,20 @@ export default function Home() {
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
         />
-        <div className="laptop:mt-20 mt-10 w-full flex flex-col items-center justify-center text-center tablet:text-left">
+        <div className="laptop:mt-20 mt-10 w-full flex flex-col items-center justify-center text-center text-gray-400">
           <div className="mt-5 ">
             <h1
               ref={textOne}
               className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-full"
             >
-              {data.headerTaglineOne}
+              {data.headerTaglineOne}&nbsp;<span className="text-white">{data.headerTaglineTwo}.</span>
             </h1>
-            <h1
+            {/* <h1
               ref={textTwo}
               className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full "
             >
               {data.headerTaglineTwo}
-            </h1>
+            </h1> */}
             <h1
               ref={textThree}
               className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full"
@@ -109,9 +109,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
+        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0 ">
           <h1 className="tablet:m-10 text-2xl text-bold">Services.</h1>
-          <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
+          <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6 text-left">
             {data.services.map((service, index) => (
               <ServiceCard
                 key={index}
@@ -129,9 +129,9 @@ export default function Home() {
             </Link>
           </div>
         )}
-        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
+        <div className="mt-10  p-2 laptop:p-0" ref={aboutRef}>
           <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
-          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
+          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:pr-20 text-left">
             {data.aboutpara}
           </p>
         </div>
