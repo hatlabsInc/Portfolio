@@ -120,6 +120,10 @@ export default function Home() {
             ))}
           </div>
         </div>
+
+        <h1 className="tablet:m-10 text-2xl text-bold">Our Feedbacks.</h1>
+
+        <Testimonials/>
         
         <div className="mt-10  p-2 laptop:p-0" ref={aboutRef}>
           <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>

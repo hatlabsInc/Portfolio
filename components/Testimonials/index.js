@@ -59,7 +59,7 @@ const Testimonials = () => {
 
   return (
     <div>
-      <h1 className="text-4xl font-bold mb-8">Testimonial Carousel</h1>
+      
       <div className="testimonials">
 
         <div className="flex items-center justify-center w-full">
