@@ -3,7 +3,7 @@
   "headerTaglineOne": "Heyy ",
   "headerTaglineTwo": "I'm Hatlabs",
   "headerTaglineThree": "designer and devloper",
-  "headerTaglineFour": " based in New Delhi, India.",
+  "headerTaglineFour": " based in Calcutta, India.",
   "showCursor": true,
   "showBlog": true,
   "darkMode": true,
@@ -12,20 +12,14 @@
     {
       "id": "1",
       "title": "Github",
-      "link": "https://www.youtube.com/watch?v=o4gKVaT3QQE&list=RD5PtvUos2B8w&index=2"
+      "link": "https://github.com/hatlabsInc"
     },
     {
       "id": "2",
       "title": "LinkedIn",
       "link": "https://www.linkedin.com/in/chetanverma7/"
     },
-    {
-      "id": "3",
-      "title": "Twitter",
-      "link": "https://twitter.com/realchetanverma"
-    },
-    { "id": "4", "title": "Blog", "link": "https://blog.chetanverma.com/" },
-    { "id": "5", "title": "Email", "link": "mailto:hello@chetanverma.com" }
+    { "id": "3", "title": "Email", "link": "mailto:hatlabs.india@gmail.com" }
   ],
   "projects": [
     {
