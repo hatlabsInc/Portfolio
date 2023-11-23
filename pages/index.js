@@ -6,6 +6,7 @@ import WorkCard from "../components/WorkCard";
 import { useIsomorphicLayoutEffect } from "../utils";
 import { stagger } from "../animations";
 import Footer from "../components/Footer";
+import Testimonials from "../components/Testimonials";
 import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
@@ -75,12 +76,6 @@ export default function Home() {
             >
               {data.headerTaglineOne}&nbsp;<span className={theme === "dark" ? "text-white": "text-black"}>{data.headerTaglineTwo}.</span>
             </h1>
-            {/* <h1
-              ref={textTwo}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full "
-            >
-              {data.headerTaglineTwo}
-            </h1> */}
             <h1
               ref={textThree}
               className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full"
@@ -125,14 +120,8 @@ export default function Home() {
             ))}
           </div>
         </div>
-        {/* This button should not go into production */}
-        {process.env.NODE_ENV === "development" && (
-          <div className="fixed bottom-5 right-5">
-            <Link href="/edit">
-              <Button type="primary">Edit Data</Button>
-            </Link>
-          </div>
-        )}
+        <Testimonials/>
+       
         <div className="mt-10  p-2 laptop:p-0" ref={aboutRef}>
           <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
           <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:pr-20 text-left">
