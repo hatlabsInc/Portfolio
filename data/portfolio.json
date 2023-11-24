@@ -59,20 +59,20 @@
     },
     {
       "id": "4",
-      "title": "A Twitter Clone",
+      "title": "Smart-Self",
       "description": "A Twitter Clone using React leveraging Firebase for real-time data and React Twitter Widgets for an interactive social media experience, creating a small version of Twitter.  ",
       "imageSrc": "https://user-images.githubusercontent.com/33893505/285425933-13d2de66-82f4-4001-b614-074ad977d743.png",
       "subtitle1":"Application Development",
-      "url": "https://twitterclone-d765b.web.app/",
-      "github_url": "https://github.com/hatlabsInc/twitter-clone"
+      "url": "https://smartshelf-frontend.vercel.app/",
+      "github_url": "https://github.com/deagleSC/smartshelf"
     },
     {
       "id": "5",
-      "title": "Project Five",
+      "title": "Lanterns",
       "description": "Development",
       "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       "url": "http://chetanverma.com/",
-      "github_url": "https://github.com/hatlabsInc/twitter-clone",
+      "github_url": "https://github.com/ipsita4/Lanterns_Script4HER-1",
       "subtitle1":"Application Development"
     },
     {
