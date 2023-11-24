@@ -229,13 +229,13 @@ export default function Home() {
             Hear from our happy clients
           </h1> */}
            <div className=" flex mt-5 justify-center">
-            <h1 className="text-3xl tablet:text-4xl laptop:text-6xl text-sky-400 laptopl:text-5xl text-bold mr-2">
+            <h1 className="text-3xl sm:text-xs mob:text-base tablet:text-4xl laptop:text-6xl text-sky-400 laptopl:text-5xl text-bold mr-2">
             Hear 
             </h1>
-            <h1 className="text-3xl tablet:text-4xl laptop:text-6xl  laptopl:text-5xl text-bold mr-2">
+            <h1 className="text-3xl sm:text-xs mob:text-base tablet:text-4xl laptop:text-6xl  laptopl:text-5xl text-bold mr-2">
             From Our
             </h1>
-            <h1 className="text-3xl tablet:text-4xl laptop:text-6xl laptopl:text-5xl text-sky-400 text-bold mb-3">
+            <h1 className="text-3xl sm:text-xs mob:text-base tablet:text-4xl laptop:text-6xl laptopl:text-5xl text-sky-400 text-bold mb-3">
             Happy Clients
             </h1>
             </div>
@@ -243,12 +243,6 @@ export default function Home() {
           <Testimonials />
         </div>
 
-        {/* <div className="mt-10  p-2 laptop:p-0" ref={aboutRef}>
-          <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
-          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:pr-20 text-left">
-            {data.aboutpara}
-          </p>
-        </div> */}
         <Footer />
       </div>
     </div>

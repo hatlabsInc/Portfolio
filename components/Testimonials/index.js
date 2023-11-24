@@ -68,21 +68,21 @@ const Testimonials = () => {
   return (
     <div>
       
-      <div className={` mr-20 ml-20 mob:p-4 rounded-lg transition-all ease-out duration-300 ${
+      <div className={` mr-20 ml-20 mob:p-1 rounded-lg transition-all ease-out duration-300 ${
         mounted && theme === "dark" ? "hover:bg-slate-50" : "hover:bg-slate-800"
       } hover:scale-105 link`}>
 
-        <div className="flex items-center justify-center w-full">
+        <div className="flex items-center justify-center w-full sm:p-0 tablet:p-2">
         <div className="profile-img h-20 w-20 bg-cover transition-all rounded-full"></div>
         </div>
         
         <div className="container">
         
-          <div className="testimonial p-5 transition-all text-opacity-40">
+          <div className="testimonial sm:p-1  tablet:p-4 transition-all text-opacity-40">
             <div>
-              <h3 className="text-2xl font-bold mb-2 name">Sanjiban Pal</h3>
-              <p className="text-lg caroTitle">Founder of Recipe-Hut</p>
-              <p className="text-lg quote text-sky-400">
+              <h3 className="sm:text-xs mob:text-sm tablet:text-2xl font-bold mb-2 name">Sanjiban Pal</h3>
+              <p className="sm:text-xs mob:text-sm tablet:text-lg caroTitle">Founder of Recipe-Hut</p>
+              <p className="sm:text-xs mob:text-sm tablet:text-lg quote text-sky-400">
                 &quot;<span>Your product has extremely helped us for customers to learn more about us and help for us to help them out!</span>&quot;
               </p>
             </div>
