@@ -108,6 +108,22 @@ export default function Home() {
             ))}
           </div>
         </div>
+        <div
+      className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link">
+      <h1 className="mt-5 text-3xl font-medium text-sky-400">
+        One Team. One Passion.
+      </h1>
+      <h1 className="mt-5 text-3xl font-medium text-green-400">
+        Endless Possibility.
+      </h1>
+      <p className="text-lg title">Hatlabs: A team of creators and problem solvers, we architect, design, and develop game-changing solutions that exceed expectations. Let us help you shape the future of your business.</p>
+      <br/>
+      
+      <div className="flex justify-content: center">
+      {/* <Button href={site_url}>Visit Site</Button>
+      <Button href={github_url}>Codebase</Button> */}
+      </div>
+      </div>
 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0 ">
           <h1 className="tablet:m-10 text-2xl text-bold">Services.</h1>
@@ -128,12 +144,52 @@ export default function Home() {
 
         <Testimonials/>
         </div>
-        <div className="mt-10  p-2 laptop:p-0" ref={aboutRef}>
+        
+
+      <div
+      className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link">
+      <h1 className="mt-5 text-3xl font-medium ">
+      Delivering Creative Solutions for a
+      </h1>
+      <h1 className="mt-5 text-3xl font-medium text-sky-400">
+      Digital-First
+      </h1>
+      <h1 className="mt-5 text-3xl font-medium ">
+      World
+      </h1>
+      
+      <p className="text-lg title">Our mission is to deliver creative and innovative solutions that help businesses succeed in the fast-paced digital world.</p>
+      <br/>
+      
+      <div className="flex justify-content: center">
+      {/* <Button href={site_url}>Visit Site</Button>
+      <Button href={github_url}>Codebase</Button> */}
+      </div>
+      </div>
+
+      <div
+      className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link">
+      <h1 className="mt-5 text-3xl font-medium ">
+        Who We 
+      </h1>
+      <h1 className="mt-5 text-3xl font-medium text-sky-400">
+      Serve
+      </h1>
+      <p className="text-lg title">At Hatlabs, we have developed and deployed solutions across multiple industries and sectors. We architect, design, and develop game-changing solutions that exceed expectations. Let us help you shape the future of your business.</p>
+      <br/>
+      
+      <div className="flex justify-content: center">
+      {/* <Button href={site_url}>Visit Site</Button>
+      <Button href={github_url}>Codebase</Button> */}
+      </div>
+      </div>
+      
+        {/* <div className="mt-10  p-2 laptop:p-0" ref={aboutRef}>
           <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
           <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:pr-20 text-left">
             {data.aboutpara}
           </p>
-        </div>
+        </div> */}
         <Footer />
       </div>
     </div>

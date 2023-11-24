@@ -87,9 +87,9 @@
   ],
   "services": [
     {
-      "id": "4",
-      "title": "Web Development",
-      "description": "We specialize in meeting your end-to-end Web, Cloud, Mobile development needs. We deliver secure and scalable solutions to drive your business forward."
+      "id": "0",
+      "title": "Web & Mobile Development",
+      "description": "Our web and mobile development services bring your digital vision to life through responsive and dynamic solutions. Utilizing leading-edge technologies, we deliver customized websites and mobile applications that prioritize user experience and innovation. From concept to implementation, our skilled team ensures your digital presence is robust, scalable, and tailored to your unique needs, propelling your business forward in the digital landscape."
     },
     {
       "id": "1",
@@ -105,6 +105,16 @@
       "id": "3",
       "title": "Product Engineering",
       "description": "Our custom product & software solutions are designed to improve your business outcomes. We work with you to understand your unique needs and create a solution that optimizes your processes, improves decision-making, and unlocks new opportunities for growth."
+    },
+    {
+      "id": "4",
+      "title": "AI Consultation",
+      "description": "Our AI strategy consulting services help businesses develop and optimize their AI strategies for success. Our team works closely with clients to identify opportunities for AI, and build/deploy AI models to help them achieve their business goals."
+    },
+    {
+      "id": "5",
+      "title": "Branding & Visual Design",
+      "description": "Our branding and visual services are dedicated to crafting a compelling and memorable brand identity. We specialize in designing logos, creating cohesive visual elements, and developing strategic brand solutions. Our goal is to translate your brand's essence into a visually impactful language, fostering trust and connection with your target audience through a distinctive and recognizable identity."
     }
   ],
   "aboutpara": "We are a team of experienced freelancers excelling in comprehensive solutions, including Cloud, Web, and Application development. Our specialization extends to Python scripting, Amazon Web Services (AWS), Google Cloud Platform, and AI and Machine Learning Solutions. With a wide range of industry experience and a track record of successful projects, we cater to diverse needs, such as E-commerce Development and Mobile App Crafting, employing cutting-edge technologies like AI & ML. We're here to assist you with our agile and innovative approach, ensuring secure, scalable solutions that propel businesses forward in the rapidly evolving digital landscape.",
