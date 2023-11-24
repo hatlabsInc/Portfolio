@@ -19,11 +19,6 @@
       "link": "https://www.linkedin.com/company/hatlabsinc"
     },
     {
-      "id": "4",
-      "title": "Blog",
-      "link": "https://www.linkedin.com/company/hatlabsinc"
-    },
-    {
       "id": "5",
       "title": "Email",
       "link": "mailto:hatlabs.india@gmail.com"
@@ -42,7 +37,7 @@
     {
       "id": "2",
       "title": "Recipe-Hut",
-      "description": "Recipe-Hut is your one stop destination for A Multi-cuisine Restaurant With Scenic Euphoria.",
+      "description": "Experience culinary delight at Recipe-Hut, a multi-cuisine haven where flavors dance and scenery enchants. Our marketing website captures the essence, inviting you to savor the extraordinary in a visual feast for the senses.",
       "imageSrc": "https://github.com/ErzaTitania-2001/recipe-hut/blob/main/readme-images/Screenshot%202023-11-23%20222343.png?raw=true",
       "url": "https://recipe-hut-manali.netlify.app/",
       "github_url": "https://github.com/ErzaTitania-2001/recipe-hut/",
