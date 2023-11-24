@@ -4,7 +4,7 @@ import Button from "../Button";
 const WorkCard = ({ img, name, description, subtitle1, url, github_url, onClick }) => {
   return (
     <div
-      className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link"
+      className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link flex flex-col  justify-between text-left"
       onClick={onClick}
     >
       <div
@@ -21,7 +21,7 @@ const WorkCard = ({ img, name, description, subtitle1, url, github_url, onClick 
         {name ? name : "Project Name"}
       </h1>
       <p className="text-lg text-sky-400 mb-3">{subtitle1 ? subtitle1 : "Subtitle"}</p>
-      <h2 className="text-xl opacity-50">
+      <h2 className="text-md opacity-50">
         {description ? description : "Description"}
       </h2>
       <div className="flex justify-content: center">
