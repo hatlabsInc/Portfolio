@@ -79,7 +79,7 @@ export default function Home() {
 
       <button
         onClick={handleScrollToBottom}
-        className="fixed shadow-2xl bottom-8 right-8 z-50 bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline border-none"
+        className="fixed shadow-2xl bottom-8 right-8 z-50 bg-gray-700 hover:bg-gray-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline border-none rounded-lg duration-300"
       >
        Get in touch with us
       </button>
