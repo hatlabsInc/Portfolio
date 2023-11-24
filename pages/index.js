@@ -15,9 +15,16 @@ import Cursor from "../components/Cursor";
 // Local Data
 import data from "../data/portfolio.json";
 import { useTheme } from "next-themes";
+import { useState, useEffect } from "react"
 
 export default function Home() {
-  const { theme } = useTheme();
+  const { theme, setTheme } = useTheme();
+
+  const [localTheme, setLocalTheme] = useState("dark")
+
+  useEffect(() => {
+    setLocalTheme(theme)
+  }, [theme])
 
   // Ref
   const workRef = useRef();
@@ -72,7 +79,7 @@ export default function Home() {
 
       <button
         onClick={handleScrollToBottom}
-        className="fixed shadow-2xl bottom-8 right-8 z-50 bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline border-none"
+        className="fixed shadow-2xl bottom-8 right-8 z-50 bg-gray-700 hover:bg-gray-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline border-none rounded-lg duration-300"
       >
        Get in touch with us
       </button>
@@ -81,6 +88,7 @@ export default function Home() {
       <div className="gradient-circle-bottom"></div>
 
       <div className="container mx-auto mb-10 p-5">
+        <div className="mb-20">
         <Header
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
@@ -96,7 +104,7 @@ export default function Home() {
               className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-full"
             >
               {data.headerTaglineOne}&nbsp;
-              <span className={theme === "dark" ? "text-white" : "text-black"}>
+              <span className={`${localTheme !== "dark" ? "text-black": "text-white"}`}>
                 {data.headerTaglineTwo}.
               </span>
             </h1>
@@ -114,21 +122,22 @@ export default function Home() {
             </h1>
           </div>
 
-          <Socials className="mt-2 laptop:mt-5" />
+        <Socials className="mt-2 laptop:mt-5" />
         </div>
         <div >
-          <div className=" flex mt-5 justify-center">
-          <h1 className="tablet:text-4xl laptop:text-5xl text-sky-400 mr-2">One Team.</h1>
-          <h1 className="tablet:text-4xl laptop:text-5xl ">One Passion.</h1>
+          <div className=" flex mt-20 justify-center">
+          <h1 className="text-2xl tablet:text-4xl laptop:text-5xl text-sky-400 mr-2">One Team.</h1>
+          <h1 className="text-2xl tablet:text-4xl laptop:text-5xl ">One Passion.</h1>
           </div>
           
-          <h1 className="mt-1 tablet:text-4xl laptop:text-5xl text-sky-400">Endless Possibility.</h1>
-          <h1 className="mt-5 text-lg">
+          <h1 className="mt-1 text-2xl tablet:text-4xl laptop:text-5xl text-sky-400">Endless Possibility.</h1>
+          <h1 className="mt-5 text-lg p-5">
             Hatlabs: A team of creators and problem solvers, we architect,
             design, and develop game-changing solutions that exceed
             expectations. Let us help you shape the future of your business.
           </h1>
           
+        </div>
         </div>
         
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
@@ -148,7 +157,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link">
+        <div className="overflow-hidden rounded-lg p-2 mt-20 mb-20 laptop:p-4 first:ml-0 link">
           <h2
             className="mt-5 text-3xl font-medium "
             style={{ display: "inline", marginRight: "10px" }}
@@ -193,7 +202,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link">
+        <div className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link mt-20 mb-10">
           <h1
             className="mt-5 text-3xl font-medium "
             style={{ display: "inline", marginRight: "10px" }}
