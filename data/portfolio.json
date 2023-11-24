@@ -50,16 +50,16 @@
     },
     {
       "id": "3",
-      "title": "Project Three",
-      "description": "Design",
-      "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/",
+      "title": "GHG Calculator",
+      "description": " Tool for comprehensive environmental analyses, empowering road projects with optimized construction strategies and precise estimations of industry-specific carbon footprints for a greener and more efficient future in infrastructure development.",
+      "imageSrc": "https://user-images.githubusercontent.com/33893505/285436473-7614d0f0-9957-45e8-ab06-161fa9af9ebb.png",
+      "url": "https://threeares-lanterns.netlify.app/",
       "subtitle1":"Application Development",
-      "github_url": "https://github.com/hatlabsInc/twitter-clone"
+      "github_url": "https://github.com/hatlabsInc"
     },
     {
       "id": "4",
-      "title": "Project Four",
+      "title": "A Twitter Clone",
       "description": "A Twitter Clone using React leveraging Firebase for real-time data and React Twitter Widgets for an interactive social media experience, creating a small version of Twitter.  ",
       "imageSrc": "https://user-images.githubusercontent.com/33893505/285425933-13d2de66-82f4-4001-b614-074ad977d743.png",
       "subtitle1":"Application Development",
