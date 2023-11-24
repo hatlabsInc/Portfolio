@@ -17,6 +17,15 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
     setMounted(true);
   }, []);
 
+  
+  const handleScrollToBottom = () => {
+    // Scroll to the bottom of the page
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: 'smooth', // Optional: Adds a smooth scrolling effect
+    });
+  }
+
   return (
     <>
       <Popover className="block tablet:hidden">
@@ -75,17 +84,14 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
                   {showResume && (
-                    <Button
-                      onClick={() =>
-                        window.open("mailto:hello@chetanverma.com")
-                      }
+                    <Button onClick={handleScrollToBottom}
                     >
                       Resume
                     </Button>
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={handleScrollToBottom}
                   >
                     Contact
                   </Button>
@@ -108,7 +114,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={handleScrollToBottom}
                   >
                     Contact
                   </Button>
@@ -145,7 +151,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button onClick={handleScrollToBottom}>
               Contact
             </Button>
             {mounted && theme && data.darkMode && (
@@ -174,7 +180,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button onClick={handleScrollToBottom}>
               Contact
             </Button>
 

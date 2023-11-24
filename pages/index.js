@@ -51,6 +51,13 @@ export default function Home() {
       { y: 0, x: 0, transform: "scale(1)" }
     );
   }, []);
+  const handleScrollToBottom = () => {
+    // Scroll to the bottom of the page
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: 'smooth', // Optional: Adds a smooth scrolling effect
+    });
+  }
 
   return (
     <div
@@ -62,6 +69,13 @@ export default function Home() {
       <Head>
         <title>{data.name}</title>
       </Head>
+
+      <button
+        onClick={handleScrollToBottom}
+        className="fixed shadow-2xl bottom-8 right-8 z-50 bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline border-none"
+      >
+       Get in touch with us
+      </button>
 
       <div className="gradient-circle"></div>
       <div className="gradient-circle-bottom"></div>
