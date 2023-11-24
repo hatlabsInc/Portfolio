@@ -17,8 +17,7 @@ import data from "../data/portfolio.json";
 import { useTheme } from "next-themes";
 
 export default function Home() {
-
-  const { theme } = useTheme()
+  const { theme } = useTheme();
 
   // Ref
   const workRef = useRef();
@@ -54,7 +53,11 @@ export default function Home() {
   }, []);
 
   return (
-    <div className={`relative ${data.showCursor && "cursor-none"} overflow-hidden text-center`}>
+    <div
+      className={`relative ${
+        data.showCursor && "cursor-none"
+      } overflow-hidden text-center`}
+    >
       {data.showCursor && <Cursor />}
       <Head>
         <title>{data.name}</title>
@@ -68,13 +71,20 @@ export default function Home() {
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
         />
-        <div className={`laptop:mt-20 mt-10 w-full flex flex-col items-center justify-center text-center ${theme === "dark" ? "text-gray-400": "text-gray-500"}`}>
+        <div
+          className={`laptop:mt-20 mt-10 w-full flex flex-col items-center justify-center text-center ${
+            theme === "dark" ? "text-gray-400" : "text-gray-500"
+          }`}
+        >
           <div className="mt-5 ">
             <h1
               ref={textOne}
               className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-full"
             >
-              {data.headerTaglineOne}&nbsp;<span className={theme === "dark" ? "text-white": "text-black"}>{data.headerTaglineTwo}.</span>
+              {data.headerTaglineOne}&nbsp;
+              <span className={theme === "dark" ? "text-white" : "text-black"}>
+                {data.headerTaglineTwo}.
+              </span>
             </h1>
             <h1
               ref={textThree}
@@ -92,21 +102,20 @@ export default function Home() {
 
           <Socials className="mt-2 laptop:mt-5" />
         </div>
-        <div
-      className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link">
-      <h1 className="mt-5 text-3xl font-medium text-sky-400" style={{ display: "inline", marginRight: "10px"}}>
-    One Team.
-  </h1>
-  <h1 className="mt-5 text-3xl font-medium" style={{ display: "inline" }}>
-    One Passion.
-  </h1>
-  <h1 className="mt-1 text-3xl font-medium text-sky-400">
-    Endless Possibility.
-  </h1>
-      <p className="mt-5 text-lg title">Hatlabs: A team of creators and problem solvers, we architect, design, and develop game-changing solutions that exceed expectations. Let us help you shape the future of your business.</p>
-      <br/>
-      
-      </div>
+        <div >
+          <div className=" flex mt-5 justify-center">
+          <h1 className="text-3xl text-sky-400 mr-2">One Team.</h1>
+          <h1 className="text-3xl ">One Passion.</h1>
+          </div>
+          
+          <h1 className="mt-1 text-3xl text-sky-400">Endless Possibility.</h1>
+          <h1 className="mt-5 text-lg">
+            Hatlabs: A team of creators and problem solvers, we architect,
+            design, and develop game-changing solutions that exceed
+            expectations. Let us help you shape the future of your business.
+          </h1>
+        </div>
+        
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
           <h1 className="text-2xl text-bold p-5">Work.</h1>
 
@@ -123,27 +132,38 @@ export default function Home() {
             ))}
           </div>
         </div>
-         
-        <div
-      className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link">
-      <h1 className="mt-5 text-3xl font-medium "style={{ display: "inline", marginRight: "10px"}}>
-      Delivering Creative Solutions for a
-      </h1>
-      <h1 className="mt-5 text-3xl font-medium text-sky-400"style={{ display: "inline", marginRight: "10px"}}>
-      Digital-First
-      </h1>
-      <h1 className="mt-5 text-3xl font-medium "style={{ display: "inline", marginRight: "10px"}}>
-      World
-      </h1>
-      
-      <p className="mt-5 text-lg title">Our mission is to deliver creative and innovative solutions that help businesses succeed in the fast-paced digital world.</p>
-      <br/>
-      
-      <div className="flex justify-content: center">
-      {/* <Button href={site_url}>Visit Site</Button>
+
+        <div className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link">
+          <h2
+            className="mt-5 text-3xl font-medium "
+            style={{ display: "inline", marginRight: "10px" }}
+          >
+            Delivering Creative Solutions for a
+          </h2>
+          <h2
+            className="mt-5 text-3xl font-medium text-sky-400"
+            style={{ display: "inline", marginRight: "10px" }}
+          >
+            Digital-First
+          </h2>
+          <h2
+            className="mt-5 text-3xl font-medium "
+            style={{ display: "inline", marginRight: "10px" }}
+          >
+            World
+          </h2>
+
+          <p className="mt-5 text-lg title">
+            Our mission is to deliver creative and innovative solutions that
+            help businesses succeed in the fast-paced digital world.
+          </p>
+          <br />
+
+          <div className="flex justify-content: center">
+            {/* <Button href={site_url}>Visit Site</Button>
       <Button href={github_url}>Codebase</Button> */}
-      </div>
-      </div>
+          </div>
+        </div>
 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0 ">
           <h1 className="tablet:m-10 text-2xl text-bold">Services.</h1>
@@ -158,26 +178,35 @@ export default function Home() {
           </div>
         </div>
 
-      <div
-      className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link">
-      <h1 className="mt-5 text-3xl font-medium " style={{ display: "inline", marginRight: "10px"}}>
-        Who We 
-      </h1>
-      <h1 className="mt-5 text-3xl font-medium text-sky-400" style={{ display: "inline", marginRight: "10px"}}>
-      Serve
-      </h1>
-      <p className="mt-5 text-lg title">At Hatlabs, we have developed and deployed solutions across multiple industries and sectors. We architect, design, and develop game-changing solutions that exceed expectations. Let us help you shape the future of your business.</p>
-      </div>
+        <div className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link">
+          <h1
+            className="mt-5 text-3xl font-medium "
+            style={{ display: "inline", marginRight: "10px" }}
+          >
+            Who We
+          </h1>
+          <h1
+            className="mt-5 text-3xl font-medium text-sky-400"
+            style={{ display: "inline", marginRight: "10px" }}
+          >
+            Serve
+          </h1>
+          <p className="mt-5 text-lg title">
+            At Hatlabs, we have developed and deployed solutions across multiple
+            industries and sectors. We architect, design, and develop
+            game-changing solutions that exceed expectations. Let us help you
+            shape the future of your business.
+          </p>
+        </div>
 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0 ">
-        <h1 className="tablet:m-10 text-2xl text-bold">Hear from our happy clients..</h1>
+          <h1 className="tablet:m-10 text-2xl text-bold">
+            Hear from our happy clients..
+          </h1>
 
-        <Testimonials/>
+          <Testimonials />
         </div>
-        
 
-      
-      
         {/* <div className="mt-10  p-2 laptop:p-0" ref={aboutRef}>
           <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
           <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:pr-20 text-left">
