@@ -11,17 +11,17 @@ const Testimonials = () => {
       'https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=1398&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     ],
     [
-      'Tanya Singh',
+      'Sanjiban Pal',
       'John Doe',
       'Mike Smith',
     ],
     [
-      'Director of Digital Marketing',
+      'Founder of Recipe-Hut',
       'Lead Front End Developer',
       'Author, Online Influencer',
     ],
     [
-      'Your product has extremely helped us to learn more about our customers.',
+      'Your product has extremely helped us for customers to learn more about us and help for us to help them out!',
       'Truly a unique and effective way of solving my problems. Wonderful!',
       'Been using it for the past month, a game-changer for sure.',
     ],
@@ -70,10 +70,10 @@ const Testimonials = () => {
         
           <div className="testimonial p-5 transition-all">
             <div>
-              <h3 className="text-2xl font-bold mb-2 name">Tanya Singh</h3>
-              <p className="text-lg title">Director of Digital Marketing</p>
+              <h3 className="text-2xl font-bold mb-2 name">Sanjiban Pal</h3>
+              <p className="text-lg title">Founder of Recipe-Hut</p>
               <p className="text-lg quote">
-                &quot;<span>Your product has extremely helped us to learn more about our customers.</span>&quot;
+                &quot;<span>Your product has extremely helped us for customers to learn more about us and help for us to help them out!</span>&quot;
               </p>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../Button";
 
-const WorkCard = ({ img, name, description, site_url, github_url, onClick }) => {
+const WorkCard = ({ img, name, description, subtitle1, site_url, github_url, onClick }) => {
   return (
     <div
       className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link"
@@ -20,6 +20,7 @@ const WorkCard = ({ img, name, description, site_url, github_url, onClick }) => 
       <h1 className="mt-5 text-3xl font-medium">
         {name ? name : "Project Name"}
       </h1>
+      <p className="text-lg title">{subtitle1 ? subtitle1 : "Subtitle"}</p>
       <br/>
       <h2 className="text-xl opacity-50">
         {description ? description : "Description"}

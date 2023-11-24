@@ -102,6 +102,7 @@ export default function Home() {
                 img={project.imageSrc}
                 name={project.title}
                 description={project.description}
+                subtitle1={project.subtitle1}
                 onClick={() => window.open(project.url)}
               />
             ))}
@@ -120,11 +121,13 @@ export default function Home() {
             ))}
           </div>
         </div>
+        
 
-        <h1 className="tablet:m-10 text-2xl text-bold">Our Feedbacks.</h1>
+        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0 ">
+        <h1 className="tablet:m-10 text-2xl text-bold">Hear from our happy clients..</h1>
 
         <Testimonials/>
-        
+        </div>
         <div className="mt-10  p-2 laptop:p-0" ref={aboutRef}>
           <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
           <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:pr-20 text-left">
