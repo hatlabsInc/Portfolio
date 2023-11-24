@@ -73,7 +73,7 @@ const Testimonials = () => {
       } hover:scale-105 link`}>
 
         <div className="flex items-center justify-center w-full">
-        <div className="profile-img h-20 w-20 bg-cover transition-all"></div>
+        <div className="profile-img h-20 w-20 bg-cover transition-all rounded-full"></div>
         </div>
         
         <div className="container">
