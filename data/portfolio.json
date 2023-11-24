@@ -37,7 +37,7 @@
       "imageSrc": "https://github.com/ErzaTitania-2001/ThreeAres-main/blob/master/sih_threeares-main/images/Screenshot%202023-11-23%20233504.png?raw=true",
       "url": "https://threeares.netlify.app/",
       "github_url": "https://github.com/ErzaTitania-2001/ThreeAres-main",
-      "subtitle1" : "Ecommerce Development - (Work in Progress)"
+      "subtitle1" : "E-Commerce Development - (Work in Progress)"
     },
     {
       "id": "2",
@@ -60,18 +60,18 @@
     {
       "id": "4",
       "title": "Smart-Self",
-      "description": "A Twitter Clone using React leveraging Firebase for real-time data and React Twitter Widgets for an interactive social media experience, creating a small version of Twitter.  ",
-      "imageSrc": "https://user-images.githubusercontent.com/33893505/285425933-13d2de66-82f4-4001-b614-074ad977d743.png",
-      "subtitle1":"Application Development",
+      "description": "An ecommerce platform made with Next.js, Tailwind Css, Redux, Stripe, Email Js, Material Ui for the frontend and Node Js, Express, MongoDb, JWT for the backend. ",
+      "imageSrc": "https://user-images.githubusercontent.com/33893505/285480782-30239a23-04b3-4594-828e-bb4d4466e786.png",
+      "subtitle1":"E-Commerce Development",
       "url": "https://smartshelf-frontend.vercel.app/",
       "github_url": "https://github.com/deagleSC/smartshelf"
     },
     {
       "id": "5",
       "title": "Lanterns",
-      "description": "Development",
-      "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/",
+      "description": "Lanterns is an inclusive platform empowering over 15 million rural women entrepreneurs. It offers visibility, mentoring, funding opportunities, and community building. Lanterns connects businesses with investors, mentors, and workshops for holistic growth.",
+      "imageSrc": "https://raw.githubusercontent.com/ipsita4/Lanterns_Script4HER-1/main/Screenshot%202023-11-24%20184925.png",
+      "url": "https://lanterns-homepage.netlify.app/",
       "github_url": "https://github.com/ipsita4/Lanterns_Script4HER-1",
       "subtitle1":"Application Development"
     },
