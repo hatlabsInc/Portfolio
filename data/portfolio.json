@@ -19,11 +19,6 @@
       "link": "https://www.linkedin.com/company/hatlabsinc"
     },
     {
-      "id": "4",
-      "title": "Blog",
-      "link": "https://www.linkedin.com/company/hatlabsinc"
-    },
-    {
       "id": "5",
       "title": "Email",
       "link": "mailto:hatlabs.india@gmail.com"
@@ -42,7 +37,7 @@
     {
       "id": "2",
       "title": "Recipe-Hut",
-      "description": "Recipe-Hut is your one stop destination for A Multi-cuisine Restaurant With Scenic Euphoria.",
+      "description": "Experience culinary delight at Recipe-Hut, a multi-cuisine haven where flavors dance and scenery enchants. Our marketing website captures the essence, inviting you to savor the extraordinary in a visual feast for the senses.",
       "imageSrc": "https://github.com/ErzaTitania-2001/recipe-hut/blob/main/readme-images/Screenshot%202023-11-23%20222343.png?raw=true",
       "url": "https://recipe-hut-manali.netlify.app/",
       "github_url": "https://github.com/ErzaTitania-2001/recipe-hut/",
@@ -59,7 +54,7 @@
     },
     {
       "id": "4",
-      "title": "Smart-Self",
+      "title": "Smart-Shelf",
       "description": "An ecommerce platform made with Next.js, Tailwind Css, Redux, Stripe, Email Js, Material Ui for the frontend and Node Js, Express, MongoDb, JWT for the backend. ",
       "imageSrc": "https://user-images.githubusercontent.com/33893505/285480782-30239a23-04b3-4594-828e-bb4d4466e786.png",
       "subtitle1":"E-Commerce Development",

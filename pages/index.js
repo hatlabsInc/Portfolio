@@ -29,6 +29,7 @@ export default function Home() {
   // Ref
   const workRef = useRef();
   const aboutRef = useRef();
+  const servicesRef = useRef();
   const textOne = useRef();
   const textTwo = useRef();
   const textThree = useRef();
@@ -37,7 +38,14 @@ export default function Home() {
   // Handling Scroll
   const handleWorkScroll = () => {
     window.scrollTo({
-      top: workRef.current.offsetTop,
+      top: servicesRef.current.offsetTop,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
+  const handleServiceScroll = () => {
+    window.scrollTo({
+      top: servicesRef.current.offsetTop,
       left: 0,
       behavior: "smooth",
     });
@@ -91,7 +99,7 @@ export default function Home() {
         <div className="mb-20">
         <Header
           handleWorkScroll={handleWorkScroll}
-          handleAboutScroll={handleAboutScroll}
+          handleServiceScroll={handleServiceScroll}
         />
         <div
           className={`laptop:mt-20 mt-10 w-full flex flex-col items-center justify-center text-center ${
@@ -136,7 +144,7 @@ export default function Home() {
             design, and develop game-changing solutions that exceed
             expectations. Let us help you shape the future of your business.
           </h1>
-          <div className="w-full flex items-center justify-center"><Button href="#">Contact Us</Button></div>
+          
         </div>
         </div>
         
@@ -189,7 +197,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0 ">
+        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0 " ref={servicesRef}>
           <h1 className="tablet:m-10 text-3xl mr-2">Services.</h1>
           <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6 text-left">
             {data.services.map((service, index) => (
@@ -229,13 +237,13 @@ export default function Home() {
             Hear from our happy clients
           </h1> */}
            <div className=" flex mt-5 justify-center">
-            <h1 className="text-3xl tablet:text-4xl laptop:text-6xl text-sky-400 laptopl:text-5xl text-bold mr-2">
+            <h1 className="text-3xl sm:text-xs mob:text-base tablet:text-4xl laptop:text-6xl text-sky-400 laptopl:text-5xl text-bold mr-2">
             Hear 
             </h1>
-            <h1 className="text-3xl tablet:text-4xl laptop:text-6xl  laptopl:text-5xl text-bold mr-2">
+            <h1 className="text-3xl sm:text-xs mob:text-base tablet:text-4xl laptop:text-6xl  laptopl:text-5xl text-bold mr-2">
             From Our
             </h1>
-            <h1 className="text-3xl tablet:text-4xl laptop:text-6xl laptopl:text-5xl text-sky-400 text-bold mb-3">
+            <h1 className="text-3xl sm:text-xs mob:text-base tablet:text-4xl laptop:text-6xl laptopl:text-5xl text-sky-400 text-bold mb-3">
             Happy Clients
             </h1>
             </div>
@@ -243,12 +251,6 @@ export default function Home() {
           <Testimonials />
         </div>
 
-        {/* <div className="mt-10  p-2 laptop:p-0" ref={aboutRef}>
-          <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
-          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:pr-20 text-left">
-            {data.aboutpara}
-          </p>
-        </div> */}
         <Footer />
       </div>
     </div>
