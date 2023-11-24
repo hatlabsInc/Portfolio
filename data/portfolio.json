@@ -59,7 +59,7 @@
     },
     {
       "id": "4",
-      "title": "Smart-Self",
+      "title": "Smart-Shelf",
       "description": "An ecommerce platform made with Next.js, Tailwind Css, Redux, Stripe, Email Js, Material Ui for the frontend and Node Js, Express, MongoDb, JWT for the backend. ",
       "imageSrc": "https://user-images.githubusercontent.com/33893505/285480782-30239a23-04b3-4594-828e-bb4d4466e786.png",
       "subtitle1":"E-Commerce Development",
