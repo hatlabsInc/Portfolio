@@ -7,43 +7,76 @@ import { useState } from "react";
 
 const Footer = ({}) => {
   const [showContactForm, setShowContactForm] = useState(false);
+  const [formSubmitted, setFormSubmitted] = useState(false);
 
   const handleContactClick = () => {
     setShowContactForm(!showContactForm);
   };
   function ContactForm() {
     const [state, handleSubmit] = useForm("mleyyrgw");
+  
     if (state.succeeded) {
-        return <p>Thanks for joining!</p>;
+        setFormSubmitted(true);
+        return <p>We will get back to you soon :)</p>;
     }
     return (
-        <form onSubmit={handleSubmit}>
-        <label htmlFor="email">
-          Email Address
-        </label>
-        <input
-          id="email"
-          type="email" 
-          name="email"
-        />
-        <ValidationError 
-          prefix="Email" 
-          field="email"
-          errors={state.errors}
-        />
-        <textarea
-          id="message"
-          name="message"
-        />
-        <ValidationError 
-          prefix="Message" 
-          field="message"
-          errors={state.errors}
-        />
-        <button type="submit" disabled={state.submitting}>
-          Submit
-        </button>
-      </form>
+      <form
+      id="fs-frm"
+      name="simple-contact-form"
+      acceptCharset="utf-8"
+      //action="https://formspree.io/f/mleyyrgw"
+      method="post"
+      className="max-w-md mx-auto bg-zinc-100 p-6 rounded-md shadow-lg mt-20"
+      onSubmit={handleSubmit}
+    >
+      <fieldset id="fs-frm-inputs">
+        <div className="mb-4">
+          <label htmlFor="full-name" className="block text-gray-700 text-sm font-bold mb-2 text-left">
+            Full Name
+          </label>
+          <input
+            type="text"
+            name="name"
+            id="full-name"
+            placeholder="First and Last"
+            required
+            className="w-full px-3 py-2 border rounded focus:outline-none focus:shadow-outline"
+          />
+        </div>
+        <div className="mb-4">
+          <label htmlFor="email-address" className="block text-gray-700 text-sm font-bold mb-2 text-left">
+            Email Address
+          </label>
+          <input
+            type="email"
+            name="email"
+            id="email-address"
+            placeholder="email@domain.tld"
+            required
+            className="w-full px-3 py-2 border rounded focus:outline-none focus:shadow-outline"
+          />
+        </div>
+        <div className="mb-4">
+          <label htmlFor="message" className="block text-gray-700 text-sm font-bold mb-2 text-left">
+            Message
+          </label>
+          <textarea
+            rows="5"
+            name="message"
+            id="message"
+            placeholder="Aenean lacinia bibendum nulla sed consectetur..."
+            required
+            className="w-full px-3 py-2 border rounded focus:outline-none focus:shadow-outline resize-none"
+          />
+        </div>
+        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" />
+      </fieldset>
+      <input
+        type="submit"
+        value="Submit"
+        className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline border-none"
+      />
+    </form>
     );
   };
   return (
@@ -58,7 +91,11 @@ const Footer = ({}) => {
             <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold mb-3">
               together
             </h1>
-            <Button type="primary" onClick={handleContactClick} >Contact Us</Button>
+            {!showContactForm && !formSubmitted &&  (
+              <Button type="primary" onClick={handleContactClick}>
+                Contact Us
+              </Button>
+            )}
             {showContactForm && <ContactForm />}
             <div className="mt-20 ">
               <Socials />

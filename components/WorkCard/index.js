@@ -26,7 +26,7 @@ const WorkCard = ({ img, name, description, subtitle1, site_url, github_url, onC
         {description ? description : "Description"}
       </h2>
       <div className="flex justify-content: center">
-      <Button href={site_url}>Visit Site</Button>
+      <Button href={site_url} className="hover:text-black">Visit Site</Button>
       <Button href={github_url}>Codebase</Button>
       </div>
       
