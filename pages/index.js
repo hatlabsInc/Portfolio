@@ -114,6 +114,7 @@ export default function Home() {
             design, and develop game-changing solutions that exceed
             expectations. Let us help you shape the future of your business.
           </h1>
+          <Button href="#">Contact Us</Button>
         </div>
         
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
@@ -200,8 +201,8 @@ export default function Home() {
         </div>
 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0 ">
-          <h1 className="tablet:m-10 text-2xl text-bold">
-            Hear from our happy clients..
+          <h1 className="mt-5 text-3xl font-medium text-sky-400">
+            Hear from our happy clients
           </h1>
 
           <Testimonials />
