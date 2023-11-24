@@ -103,7 +103,7 @@ export default function Home() {
           <Socials className="mt-2 laptop:mt-5" />
         </div>
         <div >
-          <div className="mt-5">
+          <div className=" flex mt-5 justify-center">
           <h1 className="text-3xl text-sky-400 mr-2">One Team.</h1>
           <h1 className="text-3xl ">One Passion.</h1>
           </div>
