@@ -1,1 +1,167 @@
-{"name":"Hatlabs","headerTaglineOne":"Welcome To","headerTaglineTwo":"Hatlabs","headerTaglineThree":"Morph Your Dreams To Reality With Us.","headerTaglineFour":"Based in Calcutta, India.","showCursor":true,"showBlog":true,"darkMode":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/hatlabsInc"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/company/hatlabsinc"},{"id":"3","title":"Twitter","link":"https://twitter.com/realchetanverma"},{"id":"4","title":"Blog","link":"https://blog.chetanverma.com/"},{"id":"5","title":"Email","link":"mailto:hello@chetanverma.com"}],"projects":[{"id":"1","title":"ThreeAres - (Work in Progress)","description":"ThreeAre's is an e-commerce storefront where every product sold - paperbacks, home appliances, attires, accessories, etc., is manufactured from recycled substances.","imageSrc":"https://github.com/ErzaTitania-2001/ThreeAres-main/blob/master/sih_threeares-main/images/Screenshot%202023-11-23%20233504.png?raw=true","url":"https://threeares.netlify.app/","site_url":"https://threeares.netlify.app/","github_url":""},{"id":"2","title":"Recipe-Hut","description":"Recipe-Hut is your one stop destination for A Multi-cuisine Restaurant With Scenic Euphoria.","imageSrc":"https://github.com/ErzaTitania-2001/recipe-hut/blob/main/readme-images/Screenshot%202023-11-23%20222343.png?raw=true","url":"https://recipe-hut-manali.netlify.app/","github_url":"https://github.com/ErzaTitania-2001/recipe-hut/tree/main"},{"id":"3","title":"Project Three","description":"Design","imageSrc":"https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"4","title":"Project Four","description":"Marketing","imageSrc":"https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"5","title":"Project Five","description":"Development","imageSrc":"https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"6","title":"Stock Market Prediction","description":"A stock price predicting algorithm using Long Short-Term Memory (LSTM) architecture of RNN. This program predicts the closing stock price of a corporation or index using the past 60 day closing stock price.","imageSrc":"https://user-images.githubusercontent.com/33893505/261047497-a293c589-7b91-44b7-b7ff-0582bc365387.png","url":"https://colab.research.google.com/drive/1jRkmtz3VF7TxobEgeZ6WdXFSwuKvdTxa","site_url":"https://github.com/hatlabsInc/stock-market-prediction","github_url":"https://github.com/hatlabsInc/stock-market-prediction"}],"services":[{"id":"4","title":"Web Development","description":"We specialize in meeting your end-to-end Web, Cloud, Mobile development needs. We deliver secure and scalable solutions to drive your business forward."},{"id":"1","title":"Software Consulting","description":"Our team of experienced consultants offers software strategy consulting services to help clients bring their ideas to life. From market analysis to risk assessment and monetization strategies, we provide a comprehensive roadmap to ensure project success."},{"id":"2","title":"AI/ML & Python Scripting","description":"Our AI Development Services are designed to provide innovative solutions to businesses and help them stay ahead of the competition. We use a hybrid intelligence methodology that combines the power of technology with human insight to transform your business and ensure sustainable growth."},{"id":"3","title":"Product Engineering","description":"Our custom product & software solutions are designed to improve your business outcomes. We work with you to understand your unique needs and create a solution that optimizes your processes, improves decision-making, and unlocks new opportunities for growth."}],"aboutpara":"We are a team of experienced freelancers excelling in comprehensive solutions, including Cloud, Web, and Application development. Our specialization extends to Python scripting, Amazon Web Services (AWS), Google Cloud Platform, and AI and Machine Learning Solutions. With a wide range of industry experience and a track record of successful projects, we cater to diverse needs, such as E-commerce Development and Mobile App Crafting, employing cutting-edge technologies like AI & ML. We're here to assist you with our agile and innovative approach, ensuring secure, scalable solutions that propel businesses forward in the rapidly evolving digital landscape.","resume":{"tagline":"👋  I'm a software engineer, product designer, and maker.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":["Worked on the frontend of a React application","Worked on the frontend of a React application"]},{"id":"2","dates":"March 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":["Worked on the frontend of a React application"]}],"education":{"universityName":"University X","universityDate":"2016-2020","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"},"languages":["Javascript","HTML5","CSS","Python"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]}}
+{
+  "name": "Hatlabs",
+  "headerTaglineOne": "Welcome To",
+  "headerTaglineTwo": "Hatlabs",
+  "headerTaglineThree": "Morph Your Dreams To Reality With Us.",
+  "headerTaglineFour": "Based in Calcutta, India.",
+  "showCursor": true,
+  "showBlog": true,
+  "darkMode": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "Github",
+      "link": "https://github.com/hatlabsInc"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/company/hatlabsinc"
+    },
+    {
+      "id": "3",
+      "title": "Twitter",
+      "link": "https://twitter.com/realchetanverma"
+    },
+    {
+      "id": "4",
+      "title": "Blog",
+      "link": "https://blog.chetanverma.com/"
+    },
+    {
+      "id": "5",
+      "title": "Email",
+      "link": "mailto:hello@chetanverma.com"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "ThreeAres",
+      "description": "ThreeAre's is an e-commerce storefront where every product sold - paperbacks, home appliances, attires, accessories, etc., is manufactured from recycled substances.",
+      "imageSrc": "https://github.com/ErzaTitania-2001/ThreeAres-main/blob/master/sih_threeares-main/images/Screenshot%202023-11-23%20233504.png?raw=true",
+      "url": "https://threeares.netlify.app/",
+      "site_url": "https://threeares.netlify.app/",
+      "github_url": "",
+      "subtitle1" : "Ecommerce Development - (Work in Progress)"
+    },
+    {
+      "id": "2",
+      "title": "Recipe-Hut",
+      "description": "Recipe-Hut is your one stop destination for A Multi-cuisine Restaurant With Scenic Euphoria.",
+      "imageSrc": "https://github.com/ErzaTitania-2001/recipe-hut/blob/main/readme-images/Screenshot%202023-11-23%20222343.png?raw=true",
+      "url": "https://recipe-hut-manali.netlify.app/",
+      "github_url": "https://github.com/ErzaTitania-2001/recipe-hut/tree/main",
+      "subtitle1" : "Web Development"
+    },
+    {
+      "id": "3",
+      "title": "Project Three",
+      "description": "Design",
+      "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "url": "http://chetanverma.com/"
+    },
+    {
+      "id": "4",
+      "title": "Project Four",
+      "description": "Marketing",
+      "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "url": "http://chetanverma.com/"
+    },
+    {
+      "id": "5",
+      "title": "Project Five",
+      "description": "Development",
+      "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "url": "http://chetanverma.com/"
+    },
+    {
+      "id": "6",
+      "title": "Stock Market Prediction",
+      "description": "A stock price predicting algorithm using Long Short-Term Memory (LSTM) architecture of RNN. This program predicts the closing stock price of a corporation or index using the past 60 day closing stock price.",
+      "imageSrc": "https://user-images.githubusercontent.com/33893505/261047497-a293c589-7b91-44b7-b7ff-0582bc365387.png",
+      "url": "https://colab.research.google.com/drive/1jRkmtz3VF7TxobEgeZ6WdXFSwuKvdTxa",
+      "site_url": "https://github.com/hatlabsInc/stock-market-prediction",
+      "github_url": "https://github.com/hatlabsInc/stock-market-prediction"
+    }
+  ],
+  "services": [
+    {
+      "id": "0",
+      "title": "Web & Mobile Development",
+      "description": "Our web and mobile development services bring your digital vision to life through responsive and dynamic solutions. Utilizing leading-edge technologies, we deliver customized websites and mobile applications that prioritize user experience and innovation. From concept to implementation, our skilled team ensures your digital presence is robust, scalable, and tailored to your unique needs, propelling your business forward in the digital landscape."
+    },
+    {
+      "id": "1",
+      "title": "Software Consulting",
+      "description": "Our team of experienced consultants offers software strategy consulting services to help clients bring their ideas to life. From market analysis to risk assessment and monetization strategies, we provide a comprehensive roadmap to ensure project success."
+    },
+    {
+      "id": "2",
+      "title": "AI/ML & Python Scripting",
+      "description": "Our AI Development Services are designed to provide innovative solutions to businesses and help them stay ahead of the competition. We use a hybrid intelligence methodology that combines the power of technology with human insight to transform your business and ensure sustainable growth."
+    },
+    {
+      "id": "3",
+      "title": "Product Engineering",
+      "description": "Our custom product & software solutions are designed to improve your business outcomes. We work with you to understand your unique needs and create a solution that optimizes your processes, improves decision-making, and unlocks new opportunities for growth."
+    },
+    {
+      "id": "4",
+      "title": "AI Consultation",
+      "description": "Our AI strategy consulting services help businesses develop and optimize their AI strategies for success. Our team works closely with clients to identify opportunities for AI, and build/deploy AI models to help them achieve their business goals."
+    },
+    {
+      "id": "5",
+      "title": "Branding & Visual Design",
+      "description": "Our branding and visual services are dedicated to crafting a compelling and memorable brand identity. We specialize in designing logos, creating cohesive visual elements, and developing strategic brand solutions. Our goal is to translate your brand's essence into a visually impactful language, fostering trust and connection with your target audience through a distinctive and recognizable identity."
+    }
+  ],
+  "aboutpara": "We are a team of experienced freelancers excelling in comprehensive solutions, including Cloud, Web, and Application development. Our specialization extends to Python scripting, Amazon Web Services (AWS), Google Cloud Platform, and AI and Machine Learning Solutions. With a wide range of industry experience and a track record of successful projects, we cater to diverse needs, such as E-commerce Development and Mobile App Crafting, employing cutting-edge technologies like AI & ML. We're here to assist you with our agile and innovative approach, ensuring secure, scalable solutions that propel businesses forward in the rapidly evolving digital landscape.",
+  "resume": {
+    "tagline": "👋  I'm a software engineer, product designer, and maker.",
+    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "March 2022 - Present",
+        "type": "Full Time",
+        "position": "Frontend Engineer at X",
+        "bullets": [
+          "Worked on the frontend of a React application",
+          "Worked on the frontend of a React application"
+        ]
+      },
+      {
+        "id": "2",
+        "dates": "March 2020 - March 2022",
+        "type": "Full Time",
+        "position": "Frontend Engineer at X",
+        "bullets": [
+          "Worked on the frontend of a React application"
+        ]
+      }
+    ],
+    "education": {
+      "universityName": "University X",
+      "universityDate": "2016-2020",
+      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+    },
+    "languages": [
+      "Javascript",
+      "HTML5",
+      "CSS",
+      "Python"
+    ],
+    "frameworks": [
+      "React",
+      "Typescript",
+      "NodeJs"
+    ],
+    "others": [
+      "Figma",
+      "AdobeXD",
+      "AWS"
+    ]
+  }
+}
