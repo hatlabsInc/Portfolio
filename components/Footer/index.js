@@ -146,7 +146,7 @@ const Footer = ({}) => {
             {!showContactForm && !formSubmitted && (
               <button
                 type="button"
-                className="text-sky-400 hover:scale-105 hover:text-white border border-sky-400 hover:bg-sky-500 focus:ring-4 focus:outline-none focus:ring-sky-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-sky-400 dark:text-sky-400 dark:hover:text-white dark:hover:bg-sky-400 dark:focus:ring-sky-400 " onClick={handleContactClick}
+                className="text-sky-400 hover:scale-105 duration-300 ease-out hover:text-white border border-sky-400 hover:bg-sky-500 focus:ring-4 focus:outline-none focus:ring-sky-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-sky-400 dark:text-sky-400 dark:hover:text-white dark:hover:bg-sky-400 dark:focus:ring-sky-400 " onClick={handleContactClick}
               >
                 Contact Us
               </button>
