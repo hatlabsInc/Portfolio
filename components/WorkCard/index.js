@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../Button";
 
-const WorkCard = ({ img, name, description, subtitle1, site_url, github_url, onClick }) => {
+const WorkCard = ({ img, name, description, subtitle1, url, github_url, onClick }) => {
   return (
     <div
       className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link"
@@ -25,7 +25,7 @@ const WorkCard = ({ img, name, description, subtitle1, site_url, github_url, onC
         {description ? description : "Description"}
       </h2>
       <div className="flex justify-content: center">
-      <Button href={site_url} className="hover:text-black sky-400">Visit Site</Button>
+      <Button href={url} className="hover:text-black sky-400">Visit Site</Button>
       <Button href={github_url}>Codebase</Button>
       </div>
       

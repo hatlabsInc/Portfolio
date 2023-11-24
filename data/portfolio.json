@@ -36,8 +36,7 @@
       "description": "ThreeAre's is an e-commerce storefront where every product sold - paperbacks, home appliances, attires, accessories, etc., is manufactured from recycled substances.",
       "imageSrc": "https://github.com/ErzaTitania-2001/ThreeAres-main/blob/master/sih_threeares-main/images/Screenshot%202023-11-23%20233504.png?raw=true",
       "url": "https://threeares.netlify.app/",
-      "site_url": "https://threeares.netlify.app/",
-      "github_url": "",
+      "github_url": "https://github.com/ErzaTitania-2001/ThreeAres-main",
       "subtitle1" : "Ecommerce Development - (Work in Progress)"
     },
     {
@@ -46,7 +45,7 @@
       "description": "Recipe-Hut is your one stop destination for A Multi-cuisine Restaurant With Scenic Euphoria.",
       "imageSrc": "https://github.com/ErzaTitania-2001/recipe-hut/blob/main/readme-images/Screenshot%202023-11-23%20222343.png?raw=true",
       "url": "https://recipe-hut-manali.netlify.app/",
-      "github_url": "https://github.com/ErzaTitania-2001/recipe-hut/tree/main",
+      "github_url": "https://github.com/ErzaTitania-2001/recipe-hut/",
       "subtitle1" : "Web Development"
     },
     {
@@ -54,29 +53,35 @@
       "title": "Project Three",
       "description": "Design",
       "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "url": "http://chetanverma.com/",
+      "subtitle1":"Application Development",
+      "github_url": "https://github.com/hatlabsInc/twitter-clone"
     },
     {
       "id": "4",
       "title": "Project Four",
-      "description": "Marketing",
-      "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "description": "A Twitter Clone using React leveraging Firebase for real-time data and React Twitter Widgets for an interactive social media experience, creating a small version of Twitter.  ",
+      "imageSrc": "https://user-images.githubusercontent.com/33893505/285425933-13d2de66-82f4-4001-b614-074ad977d743.png",
+      "subtitle1":"Application Development",
+      "url": "https://twitterclone-d765b.web.app/",
+      "github_url": "https://github.com/hatlabsInc/twitter-clone"
     },
     {
       "id": "5",
       "title": "Project Five",
       "description": "Development",
       "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "url": "http://chetanverma.com/",
+      "github_url": "https://github.com/hatlabsInc/twitter-clone",
+      "subtitle1":"Application Development"
     },
     {
       "id": "6",
       "title": "Stock Market Prediction",
-      "description": "A stock price predicting algorithm using Long Short-Term Memory (LSTM) architecture of RNN. This program predicts the closing stock price of a corporation or index using the past 60 day closing stock price.",
+      "description": "A stock price predicting algorithm using LSTM architecture of RNN. This program predicts the closing stock price of a corporation or index using the past 60 day closing stock price. ",
       "imageSrc": "https://user-images.githubusercontent.com/33893505/261047497-a293c589-7b91-44b7-b7ff-0582bc365387.png",
+      "subtitle1":"Machine Learning",
       "url": "https://colab.research.google.com/drive/1jRkmtz3VF7TxobEgeZ6WdXFSwuKvdTxa",
-      "site_url": "https://github.com/hatlabsInc/stock-market-prediction",
       "github_url": "https://github.com/hatlabsInc/stock-market-prediction"
     }
   ],
