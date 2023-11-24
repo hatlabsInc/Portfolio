@@ -7,6 +7,7 @@ const Socials = ({ className }) => {
   return (
     <div className={`${className} flex mob:flex-nowrap link `}>
       {yourData.socials.map((social, index) => (
+        
         <Button key={index} onClick={() => window.open(social.link)}>
           {social.title}
         </Button>

@@ -6,18 +6,18 @@ const Testimonials = () => {
 
   const testimonials = [
     [
-      'https://images.pexels.com/photos/899357/pexels-photo-899357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://media.licdn.com/dms/image/D4D03AQF2mIqMj2z_lA/profile-displayphoto-shrink_800_800/0/1692814311099?e=1706140800&v=beta&t=SA6l1q68eWrjQc-iWHMSSlzg5I1xNPEWkkTiWW5fO9c',
       'https://images.pexels.com/photos/938639/pexels-photo-938639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=1398&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      'https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     ],
     [
       'Sanjiban Pal',
-      'John Doe',
-      'Mike Smith',
+      'Vineet Sah',
+      'Abhijeet Sen',
     ],
     [
       'Founder of Recipe-Hut',
-      'Lead Front End Developer',
+      'Founder',
       'Author, Online Influencer',
     ],
     [
