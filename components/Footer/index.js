@@ -105,12 +105,29 @@ const Footer = ({}) => {
         <div>
           {/* <h1 className="text-2xl text-bold">Contact.</h1> */}
           <div className="mt-10">
-            <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
-              Let&apos;s work
+          <div className=" flex mt-5 justify-center">
+            <h1 className="text-3xl tablet:text-4xl laptop:text-6xl laptopl:text-5xl text-bold mr-2">
+              Let&apos;s
             </h1>
-            <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold mb-3">
-              together
+            <h1 className="text-3xl tablet:text-4xl laptop:text-6xl text-sky-400 laptopl:text-5xl text-bold mr-2">
+            Work
             </h1>
+            <h1 className="text-3xl tablet:text-4xl laptop:text-6xl laptopl:text-5xl text-bold mb-3">
+              Together.
+            </h1>
+            </div>
+
+            <div className=" flex mt-5 justify-center">
+            <h1 className="text-3xl tablet:text-4xl laptop:text-6xl laptopl:text-5xl text-bold mr-2">
+            Morph Your  
+            </h1>
+            <h1 className="text-3xl tablet:text-4xl laptop:text-6xl text-sky-400 laptopl:text-5xl text-bold mr-2">
+            Dreams To Reality
+            </h1>
+            <h1 className="text-3xl tablet:text-4xl laptop:text-6xl laptopl:text-5xl text-bold mb-3">
+            With Us.
+            </h1>
+            </div>
             <div className="mt-10"></div>
             {!showContactForm && !formSubmitted &&  (
               <Button type="primary" onClick={handleContactClick}>
