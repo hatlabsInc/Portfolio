@@ -14,7 +14,14 @@ const Footer = ({}) => {
   };
   function ContactForm() {
     const [state, handleSubmit] = useForm("mleyyrgw");
-  
+    const handleFormSubmit = async (e) => {
+      if (e) {
+        e.preventDefault();
+        await handleSubmit(e);
+        setShowContactForm(!showContactForm)
+      }
+    };
+
     if (state.succeeded) {
         setFormSubmitted(true);
         return <p>We will get back to you soon :)</p>;
@@ -27,7 +34,7 @@ const Footer = ({}) => {
       //action="https://formspree.io/f/mleyyrgw"
       method="post"
       className="max-w-md mx-auto bg-zinc-100 p-6 rounded-md shadow-lg mt-20"
-      onSubmit={handleSubmit}
+      onSubmit={handleFormSubmit}
     >
       <fieldset id="fs-frm-inputs">
         <div className="mb-4">
@@ -73,7 +80,7 @@ const Footer = ({}) => {
       </fieldset>
       <input
         type="submit"
-        value="Submit"
+        value={state.submitting ? "Submitting..." : "Submit"}
         className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline border-none"
       />
     </form>
@@ -91,13 +98,14 @@ const Footer = ({}) => {
             <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold mb-3">
               together
             </h1>
+            <div className="mt-10"></div>
             {!showContactForm && !formSubmitted &&  (
               <Button type="primary" onClick={handleContactClick}>
                 Contact Us
               </Button>
             )}
             {showContactForm && <ContactForm />}
-            <div className="mt-20 ">
+            <div className="mt-20 flex justify-center">
               <Socials />
             </div>
           </div>
@@ -105,7 +113,7 @@ const Footer = ({}) => {
       </div>
       <h1 className="text-xs mt-2 laptop:mt-10 p-2 laptop:p-0">
         Made With ❤ by{" "}
-        <Link href="http://www.chetanverma.com">
+        <Link href="https://hatlabs.netlify.app/">
           <a className="underline underline-offset-1">Hatlabs</a>
         </Link>
       </h1>
