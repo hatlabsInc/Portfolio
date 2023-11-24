@@ -82,7 +82,7 @@ const Testimonials = () => {
             <div>
               <h3 className="text-2xl font-bold mb-2 name">Sanjiban Pal</h3>
               <p className="text-lg caroTitle">Founder of Recipe-Hut</p>
-              <p className="text-lg quote">
+              <p className="text-lg quote text-sky-400">
                 &quot;<span>Your product has extremely helped us for customers to learn more about us and help for us to help them out!</span>&quot;
               </p>
             </div>

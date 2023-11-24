@@ -17,16 +17,15 @@ const WorkCard = ({ img, name, description, subtitle1, site_url, github_url, onC
           src={img}
         ></img>
       </div>
-      <h1 className="mt-5 text-3xl font-medium">
+      <h1 className="mt-5 text-3xl font-medium ">
         {name ? name : "Project Name"}
       </h1>
-      <p className="text-lg">{subtitle1 ? subtitle1 : "Subtitle"}</p>
-      <br/>
+      <p className="text-lg text-sky-400 mb-3">{subtitle1 ? subtitle1 : "Subtitle"}</p>
       <h2 className="text-xl opacity-50">
         {description ? description : "Description"}
       </h2>
       <div className="flex justify-content: center">
-      <Button href={site_url} className="hover:text-black">Visit Site</Button>
+      <Button href={site_url} className="hover:text-black sky-400">Visit Site</Button>
       <Button href={github_url}>Codebase</Button>
       </div>
       

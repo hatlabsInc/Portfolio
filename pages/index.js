@@ -118,20 +118,21 @@ export default function Home() {
         </div>
         <div >
           <div className=" flex mt-5 justify-center">
-          <h1 className="text-3xl text-sky-400 mr-2">One Team.</h1>
-          <h1 className="text-3xl ">One Passion.</h1>
+          <h1 className="tablet:text-4xl laptop:text-5xl text-sky-400 mr-2">One Team.</h1>
+          <h1 className="tablet:text-4xl laptop:text-5xl ">One Passion.</h1>
           </div>
           
-          <h1 className="mt-1 text-3xl text-sky-400">Endless Possibility.</h1>
+          <h1 className="mt-1 tablet:text-4xl laptop:text-5xl text-sky-400">Endless Possibility.</h1>
           <h1 className="mt-5 text-lg">
             Hatlabs: A team of creators and problem solvers, we architect,
             design, and develop game-changing solutions that exceed
             expectations. Let us help you shape the future of your business.
           </h1>
+          <Button href="#">Contact Us</Button>
         </div>
         
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
-          <h1 className="text-2xl text-bold p-5">Work.</h1>
+          <h1 className="text-3xl mr-2">Work.</h1>
 
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols- laptop:grid-cols-3 gap-4 laptop:gap-2">
             {data.projects.map((project) => (
@@ -180,7 +181,7 @@ export default function Home() {
         </div>
 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0 ">
-          <h1 className="tablet:m-10 text-2xl text-bold">Services.</h1>
+          <h1 className="tablet:m-10 text-3xl mr-2">Services.</h1>
           <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6 text-left">
             {data.services.map((service, index) => (
               <ServiceCard
@@ -214,9 +215,21 @@ export default function Home() {
         </div>
 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0 ">
-          <h1 className="tablet:m-10 text-2xl text-bold">
-            Hear from our happy clients..
-          </h1>
+
+          {/* <h1 className="mt-5 text-3xl font-medium text-sky-400">
+            Hear from our happy clients
+          </h1> */}
+           <div className=" flex mt-5 justify-center">
+            <h1 className="text-3xl tablet:text-4xl laptop:text-6xl text-sky-400 laptopl:text-5xl text-bold mr-2">
+            Hear 
+            </h1>
+            <h1 className="text-3xl tablet:text-4xl laptop:text-6xl  laptopl:text-5xl text-bold mr-2">
+            From Our
+            </h1>
+            <h1 className="text-3xl tablet:text-4xl laptop:text-6xl laptopl:text-5xl text-sky-400 text-bold mb-3">
+            Happy Clients
+            </h1>
+            </div>
 
           <Testimonials />
         </div>
