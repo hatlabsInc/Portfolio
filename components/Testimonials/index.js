@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import { useTheme } from "next-themes";
 
 const Testimonials = () => {
   const [id, setId] = useState(0);
@@ -27,12 +27,16 @@ const Testimonials = () => {
     ],
   ];
 
+  const { theme } = useTheme();
+
   useEffect(() => {
     const testimonialElement = document.querySelector('.testimonial');
     const clientImgElement = document.querySelector('.profile-img');
     const clientNameElement = document.querySelector('.name');
     const clientTitleElement = document.querySelector('.title');
     const clientQuoteElement = document.querySelector('.quote span');
+
+    
 
     const interval = setInterval(() => {
       setTimeout(() => {
@@ -57,10 +61,16 @@ const Testimonials = () => {
     return () => clearInterval(interval);
   }, [id]);
 
+  const [mounted, setMounted] = useState();
+
+
+
   return (
     <div>
       
-      <div className="testimonials">
+      <div className={` mr-20 ml-20 mob:p-4 rounded-lg transition-all ease-out duration-300 ${
+        mounted && theme === "dark" ? "hover:bg-slate-50" : "hover:bg-slate-800"
+      } hover:scale-105 link`}>
 
         <div className="flex items-center justify-center w-full">
         <div className="profile-img h-20 w-20 bg-cover transition-all"></div>
@@ -68,7 +78,7 @@ const Testimonials = () => {
         
         <div className="container">
         
-          <div className="testimonial p-5 transition-all">
+          <div className="testimonial p-5 transition-all text-opacity-40">
             <div>
               <h3 className="text-2xl font-bold mb-2 name">Sanjiban Pal</h3>
               <p className="text-lg title">Founder of Recipe-Hut</p>
