@@ -21,6 +21,7 @@ const Footer = ({}) => {
         setShowContactForm(!showContactForm)
       }
     };
+    
 
     if (state.succeeded) {
         setFormSubmitted(true);
@@ -78,14 +79,26 @@ const Footer = ({}) => {
         </div>
         <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" />
       </fieldset>
-      <input
+      <div className="flex justify-between mx-12">
+        <input
         type="submit"
         value={state.submitting ? "Submitting..." : "Submit"}
         className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline border-none"
       />
+      <button
+          type="button"
+          onClick={handleCancel}
+          className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline border-none"
+        >
+          Cancel
+        </button></div>
     </form>
     );
   };
+  const handleCancel = () => {
+    setShowContactForm(false);
+  };
+
   return (
     <>
       <div className="mt-5 laptop:mt-40 p-2 laptop:p-0 flex flex-col items-center text-center">
@@ -104,7 +117,9 @@ const Footer = ({}) => {
                 Contact Us
               </Button>
             )}
-            {showContactForm && <ContactForm />}
+            {showContactForm && (
+                <ContactForm onCancel={handleCancel} />
+              )}
             <div className="mt-20 flex justify-center">
               <Socials />
             </div>
