@@ -15,16 +15,16 @@ import Cursor from "../components/Cursor";
 // Local Data
 import data from "../data/portfolio.json";
 import { useTheme } from "next-themes";
-import { useState, useEffect } from "react"
+import { useState, useEffect } from "react";
 
 export default function Home() {
   const { theme, setTheme } = useTheme();
 
-  const [localTheme, setLocalTheme] = useState("dark")
+  const [localTheme, setLocalTheme] = useState("dark");
 
   useEffect(() => {
-    setLocalTheme(theme)
-  }, [theme])
+    setLocalTheme(theme);
+  }, [theme]);
 
   // Ref
   const workRef = useRef();
@@ -70,20 +70,11 @@ export default function Home() {
     // Scroll to the bottom of the page
     window.scrollTo({
       top: document.documentElement.scrollHeight,
-      behavior: 'smooth', // Optional: Adds a smooth scrolling effect
+      behavior: "smooth", // Optional: Adds a smooth scrolling effect
     });
-  }
+  };
 
   return (
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GWW24SZZ3T"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-GWW24SZZ3T');
-</script>
     <div
       className={`relative ${
         data.showCursor && "cursor-none"
@@ -98,7 +89,7 @@ export default function Home() {
         onClick={handleScrollToBottom}
         className="fixed shadow-2xl bottom-8 right-8 z-50 bg-gray-700 hover:bg-gray-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline border-none rounded-lg duration-300"
       >
-       Get in touch with us
+        Get in touch with us
       </button>
 
       <div className="gradient-circle"></div>
@@ -106,57 +97,66 @@ export default function Home() {
 
       <div className="container mx-auto mb-10 p-5">
         <div className="mb-20">
-        <Header
-          handleWorkScroll={handleWorkScroll}
-          handleServiceScroll={handleServiceScroll}
-        />
-        <div
-          className={`laptop:mt-20 mt-10 w-full flex flex-col items-center justify-center text-center ${
-            theme === "dark" ? "text-gray-400" : "text-gray-500"
-          }`}
-        >
-          <div className="mt-5 ">
-            <h1
-              ref={textOne}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-full"
-            >
-              {data.headerTaglineOne}&nbsp;
-              <span className={`${localTheme !== "dark" ? "text-black": "text-white"}`}>
-                {data.headerTaglineTwo}.
-              </span>
-            </h1>
-            <h1
-              ref={textThree}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full"
-            >
-              {data.headerTaglineThree}
-            </h1>
-            <h1
-              ref={textFour}
-              className="text-xl tablet:text-3xl laptop:text-3xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-full"
-            >
-              {data.headerTaglineFour}
-            </h1>
-          </div>
+          <Header
+            handleWorkScroll={handleWorkScroll}
+            handleServiceScroll={handleServiceScroll}
+          />
+          <div
+            className={`laptop:mt-20 mt-10 w-full flex flex-col items-center justify-center text-center ${
+              theme === "dark" ? "text-gray-400" : "text-gray-500"
+            }`}
+          >
+            <div className="mt-5 ">
+              <h1
+                ref={textOne}
+                className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-full"
+              >
+                {data.headerTaglineOne}&nbsp;
+                <span
+                  className={`${
+                    localTheme !== "dark" ? "text-black" : "text-white"
+                  }`}
+                >
+                  {data.headerTaglineTwo}.
+                </span>
+              </h1>
+              <h1
+                ref={textThree}
+                className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full"
+              >
+                {data.headerTaglineThree}
+              </h1>
+              <h1
+                ref={textFour}
+                className="text-xl tablet:text-3xl laptop:text-3xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-full"
+              >
+                {data.headerTaglineFour}
+              </h1>
+            </div>
 
-        <Socials className="mt-2 laptop:mt-5" />
-        </div>
-        <div >
-          <div className=" flex mt-20 justify-center">
-          <h1 className="text-2xl tablet:text-4xl laptop:text-5xl text-sky-400 mr-2">One Team.</h1>
-          <h1 className="text-2xl tablet:text-4xl laptop:text-5xl ">One Passion.</h1>
+            <Socials className="mt-2 laptop:mt-5" />
           </div>
-          
-          <h1 className="mt-1 text-2xl tablet:text-4xl laptop:text-5xl text-sky-400">Endless Possibility.</h1>
-          <h1 className="mt-5 text-lg p-5">
-            Hatlabs: A team of creators and problem solvers, we architect,
-            design, and develop game-changing solutions that exceed
-            expectations. Let us help you shape the future of your business.
-          </h1>
-          
+          <div>
+            <div className=" flex mt-20 justify-center">
+              <h1 className="text-2xl tablet:text-4xl laptop:text-5xl text-sky-400 mr-2">
+                One Team.
+              </h1>
+              <h1 className="text-2xl tablet:text-4xl laptop:text-5xl ">
+                One Passion.
+              </h1>
+            </div>
+
+            <h1 className="mt-1 text-2xl tablet:text-4xl laptop:text-5xl text-sky-400">
+              Endless Possibility.
+            </h1>
+            <h1 className="mt-5 text-lg p-5">
+              Hatlabs: A team of creators and problem solvers, we architect,
+              design, and develop game-changing solutions that exceed
+              expectations. Let us help you shape the future of your business.
+            </h1>
+          </div>
         </div>
-        </div>
-        
+
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
           <h1 className="text-3xl mr-2">Work.</h1>
 
@@ -241,21 +241,20 @@ export default function Home() {
         </div>
 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0 ">
-
           {/* <h1 className="mt-5 text-3xl font-medium text-sky-400">
             Hear from our happy clients
           </h1> */}
-           <div className=" flex mt-5 justify-center">
+          <div className=" flex mt-5 justify-center">
             <h1 className="text-3xl sm:text-xs mob:text-base tablet:text-4xl laptop:text-6xl text-sky-400 laptopl:text-5xl text-bold mr-2">
-            Hear 
+              Hear
             </h1>
             <h1 className="text-3xl sm:text-xs mob:text-base tablet:text-4xl laptop:text-6xl  laptopl:text-5xl text-bold mr-2">
-            From Our
+              From Our
             </h1>
             <h1 className="text-3xl sm:text-xs mob:text-base tablet:text-4xl laptop:text-6xl laptopl:text-5xl text-sky-400 text-bold mb-3">
-            Happy Clients
+              Happy Clients
             </h1>
-            </div>
+          </div>
 
           <Testimonials />
         </div>
