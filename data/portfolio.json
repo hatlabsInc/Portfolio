@@ -75,7 +75,7 @@
       "description": "A stock price predicting algorithm using LSTM architecture of RNN. This program predicts the closing stock price of a corporation or index using the past 60 day closing stock price. ",
       "imageSrc": "https://user-images.githubusercontent.com/33893505/261047497-a293c589-7b91-44b7-b7ff-0582bc365387.png",
       "subtitle1":"Machine Learning",
-      "url": "https://colab.research.google.com/drive/1jRkmtz3VF7TxobEgeZ6WdXFSwuKvdTxa",
+      "url": "https://colab.research.google.com/drive/1jRkmtz3VF7TxobEgeZ6WdXFSwuKvdTxa?usp=sharing",
       "github_url": "https://github.com/hatlabsInc/stock-market-prediction"
     }
   ],
