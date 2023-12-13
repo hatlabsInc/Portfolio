@@ -16,7 +16,7 @@ import Cursor from "../components/Cursor";
 import data from "../data/portfolio.json";
 import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";
-import ReactGA from 'react-ga';
+
 
 export default function Home() {
   const { theme, setTheme } = useTheme();
@@ -27,9 +27,7 @@ export default function Home() {
     setLocalTheme(theme);
   }, [theme]);
 
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
+
 
   // Ref
   const workRef = useRef();
